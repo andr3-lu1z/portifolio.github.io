@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   font-family: 'fare-fans';
+   background-image: url('foto/ART-13038_LxHUZLCVVXAHounV5MQR.jpg');
+   background-attachment: fixed;
+   position: relative;
+}
+.cabeca{
+    max-width: 100%;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-inicio{
+    width: 30px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 85vh;
+    left: 1.5%;
+    border-radius: 50%;
+    position: fixed;
+    background:url('imagens/download.jpg');
+    background-size: cover;  
+    z-index: 5;
+}
+img{
+    display: block;
+    width: 90px;
+    height: 80px;
+    padding-left: 60px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 20px;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #1f1f1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(78, 78, 78);
+    border-left: 2px solid red;
+}
+.foto-logo{
+    width: 40%;
+    height: 400px;
+    margin: 30px auto 0px auto;
+    background:url('foto/download\ -\ Copia.png');
+    opacity: 0.4;
+    background-size: cover;
+    background-position: center;
+}
+@media(max-width:1200px) and (min-width:779px){
+    .foto-logo{
+        width:75%;
+        height: 500px;
+        padding: 0px;
+    }
+}
+@media(max-width:730px) and (min-width:600px){
+    img{
+        padding-right: 30px;
+    }
+}
+@media(max-width:780px){
+    .cabeca{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .foto-logo{
+        width: 75%;
+    }
+    img{
+        padding-left: 0px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:780px){
+    .icon-inicio{
+    display: none;
+    }
+}
+@media(max-width:600px){
+    .foto-logo{
+        width: 99%;
+        height: 430px;
+        padding: 0px;
+    }
+}
+@media(max-width:444px){
+    .foto-logo{
+        width: 99%;
+        padding: 0px;
+    }
+}

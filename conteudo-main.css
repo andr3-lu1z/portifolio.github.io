@@ -1,0 +1,109 @@
+.mostruario{
+    max-width: 85%;
+    height: 870px;
+    background-color: rgba(0, 0, 0, 0.418);
+    margin: 50px auto 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.anuncio{
+    color: white;
+    display: grid;
+    height: 400px;
+    grid-template-rows: 200px 30px 50px 40px;
+    background-color: rgb(1, 1, 1);
+    row-gap: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.foto{
+    height: 200px;
+    background: url('imagens/breackout.webp');
+    background-position: center;
+    background-size: cover;
+}
+.foto2{
+    height: 200px;
+    background: url('imagens/fat-boy.webp');
+    background-position: center;
+    background-size: cover;
+}
+.foto3{
+    height: 200px;
+    background: url('imagens/sport-glide.webp');
+    background-position: center;
+    background-size: cover;
+}
+.foto4{
+    height: 200px;
+    background: url('imagens/fat-bob.webp');
+    background-position: center;
+    background-size: cover;
+}
+.foto5{
+    height: 200px;
+    background: url('imagens/low-rider-.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.foto6{
+    height: 200px;
+    background: url('imagens/heritage-classic.webp');
+    background-position: center;
+    background-size: cover;
+}
+.anuncio > .nome-moto{
+    color: rgb(164, 44, 0);
+}
+.anuncio > .descricao-moto{
+    color: rgb(169, 168, 168);
+    line-height: 1.5rem;
+}
+.anuncio > .comprar{
+   justify-self: end;
+   align-self: center;
+   margin-top: 40px;
+}
+@media(max-width:1230px){
+    .mostruario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   }
+@media(max-width:1000px){
+ .mostruario{
+     margin-top: 100px;
+ }
+}
+@media(max-width:780px) and (min-width:600px){
+    .anuncio{
+        height: 450px;
+        display: grid;
+        grid-template-rows: 200px 30px 50px 130px;
+    }
+}
+@media(max-width:600px){
+    .mostruario{
+        margin-top: 110px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   }
+   @media(max-width:590px){
+    .mostruario{
+        margin-top: 250px;
+    }
+   }
+   
+   @media(max-width:415px){
+    .mostruario{
+        margin-top: 300px;
+    }
+}
+   @media(max-width:400px){
+       .mostruario{
+           margin-top: 300px;
+       }
+   }
+

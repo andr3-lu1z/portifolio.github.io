@@ -1,0 +1,9 @@
+@import url('header.css');
+@import url('conteudo-cruiser.css');
+@import url('conteudo-main.css');
+@import url('touring.css');
+
+@font-face {
+    font-family: 'fare-fans';
+    src: url('fira_sans/firasans-regular.ttf') format('truetype');
+}
