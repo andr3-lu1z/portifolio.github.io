@@ -1,4 +1,4 @@
-.mostruario{
+.mostruario-touring{
     max-width: 85%;
     height: 870px;
     background-color: rgba(0, 0, 0, 0.418);
@@ -7,7 +7,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
-.anuncio{
+.anuncio-touring{
     color: white;
     display: grid;
     height: 400px;
@@ -17,93 +17,92 @@
     padding: 10px;
     border-radius: 6px;
 }
-.foto{
+.foto-touring1{
     height: 200px;
-    background: url('imagens/cruizer/breackout.webp');
+    background: url('imagens/touring/-cvo-road-glide-limi.webp');
     background-position: center;
     background-size: cover;
 }
-.foto2{
+.foto-touring2{
     height: 200px;
-    background: url('imagens/cruizer/fat-boy.webp');
+    background: url('imagens/touring/road-glide-special.webp');
     background-position: center;
     background-size: cover;
 }
-.foto3{
+.foto-touring3{
     height: 200px;
-    background: url('imagens/cruizer/sport-glide.webp');
+    background: url('imagens/touring/street-glide-special.jpg');
     background-position: center;
     background-size: cover;
 }
-.foto4{
+.foto-touring4{
     height: 200px;
-    background: url('imagens/cruizer/fat-bob.webp');
+    background: url('imagens/touring/road-glide-limited-f66b.webp');
     background-position: center;
     background-size: cover;
 }
-.foto5{
+.foto-touring5{
     height: 200px;
-    background: url('imagens/cruizer/low-rider-.jpg');
+    background: url('imagens/touring/ultra-limited-f66b.jpg');
     background-position: center;
     background-size: cover;
 }
-.foto6{
+.foto-touring6{
     height: 200px;
-    background: url('imagens/cruizer/heritage-classic.webp');
+    background: url('imagens/touring/-cvo-road-glide-limi.webp');
     background-position: center;
     background-size: cover;
 }
-.anuncio > .nome-moto{
+.anuncio-touring > .nome-moto{
     color: rgb(164, 44, 0);
 }
-.anuncio > .descricao-moto{
+.anuncio-touring > .descricao-moto{
     color: rgb(169, 168, 168);
     line-height: 1.5rem;
 }
-.anuncio > .comprar{
+.anuncio-touring > .comprar{
    justify-self: end;
    align-self: center;
    margin-top: 40px;
 }
 @media(max-width:1230px){
-    .mostruario{
+    .mostruario-touring{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
    }
 @media(max-width:1000px){
- .mostruario{
+ .mostruario-touring{
      margin-top: 100px;
  }
 }
 @media(max-width:780px) and (min-width:600px){
-    .anuncio{
+    .anuncio-touring{
         height: 450px;
         display: grid;
         grid-template-rows: 200px 30px 50px 130px;
     }
 }
 @media(max-width:600px){
-    .mostruario{
+    .mostruario-touring{
         margin-top: 110px;
         display: grid;
         grid-template-columns: 1fr;
     }
    }
    @media(max-width:590px){
-    .mostruario{
+    .mostruario-touring{
         margin-top: 250px;
     }
    }
    
    @media(max-width:415px){
-    .mostruario{
+    .mostruario-touring{
         margin-top: 300px;
     }
 }
    @media(max-width:400px){
-       .mostruario{
+       .mostruario-touring{
            margin-top: 300px;
        }
    }
-
