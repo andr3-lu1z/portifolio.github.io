@@ -1,0 +1,205 @@
+#quem-somos{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+#quem-somos > h2{
+    color: #ff8000;
+    font-size: 1.4rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#quem-somos > h1{
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+#quem-somos > p{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.nossa-missao{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 80px;
+}
+.missao-foto{
+    width: 100%;
+    height: 380px;
+   background: url('foto/fltrxse-highway-media-card.webp');
+   background-size: cover;
+   background-position: center;
+}
+.missao-texto > H1{
+    width: 70%;
+    text-align: left;
+    font-size: 2rem;
+ }
+.missao-texto > p{
+   width: 90%;
+   text-align: left;
+   font-size: 1rem;
+   padding-top: 30PX;
+}
+.nossa-visao{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.visao-foto{
+    width: 100%;
+    height: 380px;
+    background: url('foto/tank-wall-media-card.webp');
+}
+.visao-texto{
+    width: 70%;
+    text-align: left;
+    justify-self: center;
+}
+.visao-texto > h1{
+    font-size: 2rem;
+}
+.visao-texto > p{
+   font-size: 1rem;
+   padding-top: 30PX;
+}
+#section-contato{
+    width: 100%;
+    height: 400px;
+    background-color: #111;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+svg{
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: -80px;
+    left: 100px;
+}
+.contatos{
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px 20px;
+    justify-items: start;
+    grid-column: 1;
+}
+.icon{
+ display: block;
+ width: 45px;
+ height: 35px;
+}
+img+p{
+    color: white;
+    display: block;
+    align-self: center;
+    font-size: 1.6rem;
+}
+[contato]{
+    font-size: 2.5rem;
+    padding-bottom: 30px;
+    color: #c73500;
+    margin-left: 65px;
+    padding-top: 50px;
+}
+p > a {
+    background-color: #111;
+}
+.insta{
+    height: 40px;
+    width: 65px;
+    margin-left: -10px;
+}
+.redes-sociais{
+    grid-column: 1;
+}
+.fique-por-dentro{
+    width: 70%;
+    color: white;
+    grid-column: 2;
+    font-size: 1.2rem;
+}
+.fique-por-dentro > h1{
+    color: #ff8000;
+  padding-bottom: 30px;
+}
+
+@media(max-width:1230px){
+    #quem-somos{
+        margin-top: 500px;
+    }
+}
+@media(max-width:900px){
+    .missao-texto > p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .visao-texto{
+        width: 100%;
+        text-align: left;
+        justify-self: center;
+    }
+    .visao-texto > p{
+       font-size: 1.2rem;
+    }
+}
+@media(max-width:780px){
+    #quem-somos{
+        margin-top: 650px;
+    }
+}
+@media(max-width:768px){
+    .fique-por-dentro{
+       padding-left: 40px;
+    }
+}
+@media(max-width:600px){
+    #quem-somos{
+        margin-top: 1800px;
+    }
+    #quem-somos > p{
+        font-size: 1.2rem;
+    }
+    .nossa-missao, .nossa-visao{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    svg{
+        width: 150px;
+        height: 100px;
+        display: block;
+        position: absolute;
+        top: -25px;
+        left: -20px;
+    }
+    #section-contato{
+       height: 500px;
+    }
+}
+@media(max-width:510px){
+        #section-contato{
+        height: 570px;
+        display:block;
+    }
+    .contatos{
+        padding-left: 45px;
+    }
+    .fique-por-dentro{
+        padding-top: 50px;
+    }
+    .fique-por-dentro >h1{
+        padding-bottom: 10px;
+    }
+}
