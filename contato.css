@@ -95,11 +95,11 @@ svg{
     height: 150px;
     display: block;
     position: absolute;
-    top: -80px;
-    left: 100px;
+    top: -60px;
+    left: 20px;
 }
 .contatos{
-    width: 40%;
+    width: 90%;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 15px 20px;
@@ -175,12 +175,19 @@ p > a {
        padding-left: 40px;
     }
 }
+.contatos > p{
+     margin-left:-45px;
+}
 @media(max-width:600px){
     #quem-somos{
         margin-top: 1800px;
     }
     #quem-somos > p{
         font-size: 1.2rem;
+    }
+    .nossa-missao{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .nossa-missao, .nossa-visao{
         display: grid;
@@ -197,13 +204,26 @@ p > a {
     #section-contato{
        height: 500px;
     }
+    .contatos{
+        width: 110%;
+    }
+    .contatos > p{
+        margin-left:5px;
+   }
+    
 }
+
 @media(max-width:510px){
         #section-contato{
-        height: 570px;
+        height: 620px;
         display:block;
     }
+    .nossa-missao{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .contatos{
+        max-width:80% ;
         padding-left: 45px;
     }
     .fique-por-dentro{
@@ -212,5 +232,6 @@ p > a {
     .fique-por-dentro >h1{
         padding-bottom: 10px;
     }
+    
 }
 
